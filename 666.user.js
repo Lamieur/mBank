@@ -110,7 +110,7 @@ function mbanktogowno(jNode) {
 }
 
 waitForKeyElements (
-    "#authorizationCode, #SmsCode, input.btn",
+    "#authorizationCode, #SmsCode, input.btn, #logoutId",
     mbanktogowno
 );
 
