@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id             666
 // @name           mBank to gówno
-// @version        1.2
+// @version        1.3
 // @namespace      Lam
 // @author         Lam
 // @description    mBank to gówno
