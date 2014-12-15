@@ -1,12 +1,15 @@
 // ==UserScript==
 // @id             666
 // @name           mBank to gówno
-// @version        1.0
+// @version        1.1
 // @namespace      Lam
 // @author         Lam
 // @description    mBank to gówno
 // @include        https://online.mbank.pl/*
+// @grant          unsafeWindow
 // @run-at         document-end
+// @downloadURL    https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
+// @updateURL      https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
 // ==/UserScript==
 
 var $ = unsafeWindow.jQuery;
@@ -114,3 +117,7 @@ waitForKeyElements (
     mbanktogowno
 );
 
+
+// Nie mogę patrzeć na tę brzydką babę podczas logowania.
+GM_addStyle( ".login-panel-content-bg-standard { display:none; }" );
+GM_addStyle( "#log-in-panel { background-color:#666666; }" );
