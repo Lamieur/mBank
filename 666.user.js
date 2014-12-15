@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id             666
 // @name           mBank to gówno
-// @version        1.1
+// @version        1.2
 // @namespace      Lam
 // @author         Lam
 // @description    mBank to gówno
@@ -120,4 +120,5 @@ waitForKeyElements (
 
 // Nie mogę patrzeć na tę brzydką babę podczas logowania.
 GM_addStyle( ".login-panel-content-bg-standard { display:none; }" );
+GM_addStyle( ".login-panel-content-bg-wide { display:none; }" );
 GM_addStyle( "#log-in-panel { background-color:#666666; }" );
