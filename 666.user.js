@@ -6,6 +6,7 @@
 // @author         Lam
 // @description    mBank to gówno
 // @include        https://online.mbank.pl/*
+// @include        http://www.mbank.pl/logoutpage*
 // @grant          unsafeWindow
 // @run-at         document-end
 // @downloadURL    https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
