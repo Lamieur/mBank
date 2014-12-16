@@ -1,13 +1,14 @@
 // ==UserScript==
 // @id             666
 // @name           mBank to gówno
-// @version        1.3
+// @version        1.4
 // @namespace      Lam
 // @author         Lam
 // @description    mBank to gówno
 // @include        https://online.mbank.pl/*
 // @include        http://www.mbank.pl/logoutpage*
 // @grant          unsafeWindow
+// @grant          GM_addStyle
 // @run-at         document-end
 // @downloadURL    https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
 // @updateURL      https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
