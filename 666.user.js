@@ -1,10 +1,10 @@
 // ==UserScript==
 // @id             666
-// @name           mBank to gówno
-// @version        1.4
+// @name           mBank to amatorzy
+// @version        1.5
 // @namespace      Lam
 // @author         Lam
-// @description    mBank to gówno
+// @description    mBank to amatorzy
 // @include        https://online.mbank.pl/*
 // @include        http://www.mbank.pl/logoutpage*
 // @grant          unsafeWindow
@@ -62,8 +62,8 @@ function waitForKeyElements (
         /*--- Found target node(s).  Go through each and act if they
             are new.
         */
-        targetNodes.each ( function () {
-            var jThis        = $(this);
+        for (var i = 0; i < targetNodes.length; i++) {
+            var jThis        = $(targetNodes[i]);
             var alreadyFound = jThis.data ('alreadyFound')  ||  false;
 
             if (!alreadyFound) {
@@ -74,7 +74,7 @@ function waitForKeyElements (
                 else
                     jThis.data ('alreadyFound', true);
             }
-        } );
+        }
     }
     else {
         btargetsFound   = false;
@@ -110,7 +110,7 @@ function waitForKeyElements (
 }
 
 function mbanktogowno(jNode) {
-//	jNode.val( 'DUPA	' );
+//	jNode.val( 'TEST' );
     jNode[0].focus ();
 }
 
