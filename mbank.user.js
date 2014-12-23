@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id             666
 // @name           mBank to amatorzy
-// @version        1.5
+// @version        1.6
 // @namespace      Lam
 // @author         Lam
 // @description    mBank to amatorzy
@@ -10,8 +10,8 @@
 // @grant          unsafeWindow
 // @grant          GM_addStyle
 // @run-at         document-end
-// @downloadURL    https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
-// @updateURL      https://raw.githubusercontent.com/Lamieur/mBank/master/666.user.js
+// @downloadURL    https://raw.githubusercontent.com/Lamieur/mBank/master/mbank.user.js
+// @updateURL      https://raw.githubusercontent.com/Lamieur/mBank/master/mbank.user.js
 // ==/UserScript==
 
 var $ = unsafeWindow.jQuery;
