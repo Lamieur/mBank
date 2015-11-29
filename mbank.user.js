@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id             666
 // @name           mBank to amatorzy
-// @version        1.6
+// @version        1.7
 // @namespace      Lam
 // @author         Lam
 // @description    mBank to amatorzy
@@ -120,7 +120,7 @@ waitForKeyElements (
 );
 
 
-// Nie mogę patrzeć na tę brzydką babę podczas logowania.
-GM_addStyle( ".login-panel-content-bg-standard { display:none; }" );
-GM_addStyle( ".login-panel-content-bg-wide { display:none; }" );
-GM_addStyle( "#log-in-panel { background-color:#666666; }" );
+// Nowa strona logowania, chyba próbowali ukryć kursor pod napisem "Identyfikator", przez co ukryli wprowadzany tekst :D
+GM_addStyle( ".form-input #userID { color:black; }" );
+GM_addStyle( ".form-input #pass { color:black; }" );
+
