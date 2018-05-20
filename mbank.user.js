@@ -123,4 +123,5 @@ waitForKeyElements (
 // Nowa strona logowania, chyba próbowali ukryć kursor pod napisem "Identyfikator", przez co ukryli wprowadzany tekst :D
 GM_addStyle( ".form-input #userID { color:black; }" );
 GM_addStyle( ".form-input #pass { color:black; }" );
+GM_addStyle( "html.lifting, #content, body.lifting { background-color: #dddddd !important; }" );
 
